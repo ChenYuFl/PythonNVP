@@ -17,7 +17,9 @@ ohczzz666@outlook.com
 
 您可以直接下载 `Releases`中打包好的`server.py`和`backend.py` 也可以自行进行构建
 
-### 自行构建
+You can directly download the packaged server.py and backend.py from the Releases section, or you can build them yourself.
+
+### Self built - 自行构建
 #### Requirements - 必要条件
 
 `$ pip install -r requirements.txt`
