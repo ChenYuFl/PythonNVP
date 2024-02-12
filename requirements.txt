@@ -1,0 +1,5 @@
+base64==1.7.1
+requests==2.26.0
+psutil==5.8.0
+Flask==2.0.2
+openpyxl==3.0.9
