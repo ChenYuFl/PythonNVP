@@ -13,6 +13,38 @@ For any inquiries, please contact:
 
 ohczzz666@outlook.com
 
+## Installation - 安装
+
+您可以直接下载 `Releases`中打包好的`server.py`和`backend.py` 也可以自行进行构建
+
+### 自行构建
+#### Requirements - 必要条件
+
+`$ pip install -r requirements.txt`
+
+or
+
+```
+# login.py requirements
+base64==1.7.1
+requests==2.26.0
+psutil==5.8.0
+
+# server.py requirements
+Flask==2.0.2
+openpyxl==3.0.9
+
+# Backend.py requirements
+openpyxl==3.0.9
+```
+#### Packaged - 打包
+```
+$ Pyinstaller -F login.py
+
+$ Pyinstaller -F server.py
+
+$ Pyinstaller -F backend.py
+```
 ## Usage - 用法
 
 ### Login - 登录端
